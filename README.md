@@ -93,6 +93,9 @@ Here are some of the charts created during the project:
 
 ## 🔗 Cross-Selling Product Matrix
 
+![image](https://github.com/user-attachments/assets/da57233a-ca2d-4514-ac87-39835173acdf)
+
+
 Although the original dataset didn't include transaction-level combinations, we inferred cross-sell opportunities using product purchase volumes and logical associations:
 
 | Product A         | Potential Cross-Sell Products         |
