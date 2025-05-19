@@ -50,20 +50,38 @@ The project was part of a Business Analyst Internship assignment. It involved wo
 
 ---
 
-## 🔁 ETL Process
-
-1. **Extract**  
-   - Data was imported into Excel from a raw assignment file.
-
-2. **Transform**  
-   - Used Power Query to remove duplicates, clean email/phone formats, and standardize text fields.
-   - Applied Excel formulas to fix email domain issues and insert missing names/usernames.
-
-3. **Load**  
-   - Cleaned data was loaded back into Excel sheets and used for pivot tables and visualizations.
+### 🔁 ETL Process (Extract – Transform – Load)
 
 ---
 
+#### ✅ 1. Extract
+- Imported the raw `.xlsx` dataset provided as part of the Business Analyst internship assignment.
+- Loaded the dataset into **Microsoft Excel** and **Power Query** for structured transformation and data preparation.
+
+---
+
+#### 🔧 2. Transform (Data Cleaning & Standardization)
+
+The transformation process focused on ensuring the dataset was accurate, consistent, and analysis-ready using Excel formulas and Power Query.
+
+---
+
+##### 📧 Email Address Cleaning & Validation
+- Identified and corrected emails missing the `@` symbol before domain names (e.g., `usergmail.com` → `user@gmail.com`).
+- Replaced invalid domain patterns such as `@gmailcom`, `@yahoocom`, and `@outlookcom` with proper formats like `@gmail.com`.
+- Fixed incorrect domain characters like `@.` using:
+
+
+##### 📞 Phone Number Standardization
+- Cleaned phone numbers by removing symbols like dashes -, spaces, and brackets () using substitute function
+- Validated phone numbers to match Indian mobile number standards like Must be exactly 10 digits and Must start with digits 6 to 9 using if and len function
+
+##### 🧹 Additional Data Cleaning
+- Removed duplicate records using Power Query > Remove Duplicates.
+##### 📥 3. Load
+- Loaded the cleaned dataset back into Excel.
+- Created:Pivot Tables for customer and product analysis
+- Charts for visual storytelling (bar, pie, line)
 ## 📊 Dashboard Preview
 
 Here are some of the charts created during the project:
