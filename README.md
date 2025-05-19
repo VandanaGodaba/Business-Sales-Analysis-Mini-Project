@@ -71,17 +71,25 @@ The transformation process focused on ensuring the dataset was accurate, consist
 - Replaced invalid domain patterns such as `@gmailcom`, `@yahoocom`, and `@outlookcom` with proper formats like `@gmail.com`.
 - Fixed incorrect domain characters like `@.` using:
 
+---
 
 ##### 📞 Phone Number Standardization
 - Cleaned phone numbers by removing symbols like dashes -, spaces, and brackets () using substitute function
 - Validated phone numbers to match Indian mobile number standards like Must be exactly 10 digits and Must start with digits 6 to 9 using if and len function
 
+---
+
 ##### 🧹 Additional Data Cleaning
 - Removed duplicate records using Power Query > Remove Duplicates.
+---
+
 ##### 📥 3. Load
 - Loaded the cleaned dataset back into Excel.
 - Created:Pivot Tables for customer and product analysis
 - Charts for visual storytelling (bar, pie, line)
+
+---
+
 ## 📊 Dashboard Preview
 
 Here are some of the charts created during the project:
