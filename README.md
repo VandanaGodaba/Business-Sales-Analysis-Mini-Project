@@ -68,15 +68,8 @@ The project was part of a Business Analyst Internship assignment. It involved wo
 
 Here are some of the charts created during the project:
 
-![Customer by Region](https://user-images.githubusercontent.com/your-image-link-1.png)
-> **Customer Distribution by Region**
+![image](https://github.com/user-attachments/assets/c059c3d6-3903-453a-994b-d3bd4c8ea70e)
 
-![Top Products](https://user-images.githubusercontent.com/your-image-link-2.png)
-> **Top Products by Revenue**
-
-*(Replace image links with actual GitHub-hosted image URLs)*
-
----
 
 ## 🔗 Cross-Selling Product Matrix
 
@@ -122,11 +115,5 @@ This project showcases how structured Excel-based analysis can provide deep busi
 
 **Vandana**  
 💼 Business Analyst Intern  
-📧 vandana@example.com  
-🔗 [LinkedIn](https://linkedin.com/in/yourprofile)  
-🔗 [Portfolio](https://yourportfolio.com)
-
----
-
-⭐ *If you found this project useful or inspiring, feel free to star the repo!*
+📧 godabavandana@gmail.com  
 
